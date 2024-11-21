@@ -1,0 +1,169 @@
+body {
+    background-image: url(bg.jpg);
+     background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment:fixed;
+      font-size: 20px;
+    }
+    header{
+        background-color: rgb(11, 57, 70);
+        padding:1px;
+        margin:1px;
+        text-align: center;
+        height:100px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .hhh{
+        color:#233e4d;
+    }
+    .gg{
+        color:rgb(14, 63, 63)
+    }
+    nav {
+        list-style:circle;
+        position: relative;
+        left: 45%;
+        display:inline-flex;
+        justify-content:right;
+    }
+    #about {
+        background-color:none;
+        margin-bottom: 2em;
+        padding: 1em;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    #ss {
+        padding: 1em;
+        border-radius: 8px;
+        margin-bottom: 1em;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width:500px;
+        position: relative;
+        left:50% ;
+    }
+    .ff{
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 1em;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        width:500px;
+        position: relative;
+        left: 40px;
+    }
+    .pp{
+        padding: 1em;
+            border-radius: 8px;
+            margin-bottom: 1em;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width:500px;
+            position: relative;
+            left: 40px;
+    }
+    div:hover {
+        background-color: rgb(34, 81, 90);
+        color: white;
+         
+      }
+      
+    .cc{
+        position: relative;
+        left: 40px;
+        bottom: 3px;
+    }
+    
+    h1 {
+        color:#e4ebf0;
+    }
+    h2{
+        color:white ;
+    }    
+    button {
+        background-color: #255670;
+        color: rgb(230, 227, 227);
+        padding: 0.5em 1em;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        
+    }
+    
+    button:hover {
+        background-color: #44728f;
+    }
+    #about{
+        color: #233e4d;
+    }
+    #p1{
+        color:white ;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 200;
+        
+    }
+    
+    body {
+        font-size: 20px;
+    }
+    
+    /* Medium screens (Tablets, smaller laptops) */
+    @media (max-width: 1024px) {
+        body {
+            font-size: 18px;
+        }
+        #ss, .ff, .pp {
+            width: 80%; /* Make sections narrower for smaller screens */
+            left: 10%; /* Center-align on smaller screens */
+        }
+        nav {
+            left: 0;
+            justify-content: center;
+        }
+    }
+    
+    /* Small screens (Portrait tablets and large phones) */
+    @media (max-width: 768px) {
+        body {
+            font-size: 16px;
+        }
+        header {
+            height: 80px;
+        }
+        #ss, .ff, .pp {
+            width: 90%; /* Further reduce width for narrow screens */
+            left: 5%;   /* Center-align */
+        }
+        h1 {
+            font-size: 1.8em;
+        }
+        h2 {
+            font-size: 1.4em;
+        }
+    }
+    
+    /* Extra small screens (Small phones) */
+    @media (max-width: 480px) {
+        body {
+            font-size: 14px;
+        }
+        header {
+            height: 70px;
+            padding: 0.5em;
+        }
+        nav {
+            left: 0;
+            flex-direction: column;
+            align-items: center;
+        }
+        #ss, .ff, .pp {
+            width: 100%;
+            left: 0;
+            margin: 0 auto;
+            padding: 1em;
+        }
+        button {
+            padding: 0.3em 0.8em;
+            font-size: 0.9em;
+        }
+    }
